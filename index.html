@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,60 +20,57 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="container-pricipal top-line-container">
-      <!-- navigation bar -->
-      <nav class="main-navigation-container">
-        <!-- logo -->
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-span-dark-header">Studio</span></a
-        >
-        <!-- studio,portfolio,contacts -->
-        <ul class="navigation-list list hero-navbar-list">
-          <li><a class="nav-link link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="nav-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container-pricipal">
+        <!-- navigation bar -->
+        <nav class="main-navigation-container">
+          <!-- logo -->
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-span-dark-header">Studio</span></a
+          >
+          <!-- studio,portfolio,contacts -->
+          <ul class="navigation-list list hero-navbar-list">
+            <li><a class="nav-link link" href="./index.html">Studio</a></li>
+            <li>
+              <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="nav-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <!-- contact address section -->
-      <address class="address-container">
-        <ul class="address-list list address-container-cta">
-          <li>
-            <a class="address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <!-- contact address section -->
+        <address class="address-container">
+          <ul class="address-list list address-container-cta">
+            <li>
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
-    <main class="main-container">
+    <main>
       <!-- hero image section -->
       <section class="hero-image-section-container">
         <div class="container-pricipal">
           <h1 class="hero-image-header">
             Effective Solutions for Your Business
           </h1>
-          <button
-            class="hero-image-button button-order-service-display"
-            type="button"
-          >
-            Order Service
-          </button>
+          <button class="hero-image-button" type="button">Order Service</button>
         </div>
       </section>
 
       <!-- section one list of qualities of Webstudio -->
       <section class="first-section-container">
-        <div>
-          <h2 class="first-section-header visually-hidden" hidden>Qualities</h2>
+        <div class="container-pricipal">
+          <h2 class="visually-hidden" hidden>Qualities</h2>
           <!-- description of Webstudio -->
           <ul class="first-section-list list">
             <!--first trait-->
@@ -111,7 +115,7 @@
         <ul class="sec-two-image-list list">
           <li>
             <img
-              class="image-section-two"
+              class="image-section-two image"
               src="./images/screen1.jpg"
               alt="Computer"
               width="360"
@@ -120,7 +124,7 @@
           </li>
           <li>
             <img
-              class="image-section-two"
+              class="image-section-two image"
               src="./images/whatsapp1.jpg"
               alt="Smartphones"
               width="360"
@@ -129,7 +133,7 @@
           </li>
           <li>
             <img
-              class="image-section-two"
+              class="image-section-two image"
               src="./images/phone1.jpg"
               alt="Display-image"
               width="360"
@@ -146,7 +150,7 @@
           <!--first member-->
           <li class="team-member-container">
             <img
-              class="team-member-image"
+              class="team-member-image image"
               src="./images/MarkGuerrero.jpg"
               alt="Product-designer"
               width="264"
@@ -158,7 +162,7 @@
           <!--second member-->
           <li class="team-member-container">
             <img
-              class="team-member-image"
+              class="team-member-image image"
               src="./images/TomFord.jpg"
               alt="Freontend-developper"
               width="264"
@@ -170,7 +174,7 @@
           <!--third member-->
           <li class="team-member-container">
             <img
-              class="team-member-image"
+              class="team-member-image image"
               src="./images/CamilaGarcia.jpg"
               alt="Marketing"
               width="264"
@@ -182,7 +186,7 @@
           <!--fourth member-->
           <li class="team-member-container">
             <img
-              class="team-member-image"
+              class="team-member-image image"
               src="./images/DanielWilson.jpg"
               alt="UI-designer"
               width="264"

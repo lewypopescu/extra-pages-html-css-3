@@ -76,6 +76,7 @@ ul {
 .main-navigation-container {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .hero-navbar-list {
@@ -179,6 +180,11 @@ ul {
   letter-spacing: 0.64px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-image-button:hover,
@@ -186,9 +192,6 @@ ul {
   background-color: var(--OCEAN);
 }
 
-.button-order-service-display {
-  display: flex;
-}
 /* section one styles , webstudio qualities */
 
 .first-section-container {
