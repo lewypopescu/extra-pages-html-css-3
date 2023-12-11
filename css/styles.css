@@ -9,12 +9,88 @@
 
 /*Global styes*/
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 body {
   background-color: var(--WHITE);
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container-pricipal {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-header {
+  max-width: 496px;
+  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: var(--WHITE);
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.image {
+  display: block;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.top-line-container {
+  padding: 24px 156px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation-container {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-navbar-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-container-cta {
+  display: flex;
+  gap: 40px;
+}
+
+.address-container {
+  font-style: normal;
+}
 /* class rules */
 
 /* rules for header */
@@ -57,10 +133,6 @@ body {
   color: var(--OCEAN);
 }
 
-.address-container {
-  font-style: normal;
-}
-
 .address-list {
   list-style-type: none;
 }
@@ -90,6 +162,8 @@ body {
 .hero-image-header {
   color: var(--WHITE, #fff);
   text-align: center;
+  display: flex;
+  padding: 188px 472px 292px 472px;
   font-size: 56px;
   font-weight: 700;
   line-height: 107.143%; /* 107.143% */
@@ -111,7 +185,28 @@ body {
 .hero-image-button:focus {
   background-color: var(--OCEAN);
 }
+
+.button-order-service-display {
+  display: flex;
+}
 /* section one styles , webstudio qualities */
+
+.first-section-container {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  margin: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .first-section-list {
   list-style-type: none;
